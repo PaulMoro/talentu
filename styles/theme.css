@@ -1,0 +1,36 @@
+:root {
+  /* theme */
+  --dark-base: #282A3E;
+  --base: #2B2D42;
+  --slate: #A8A8C7;
+  --light-slate: #C7C7DB;
+  --black: #000;
+  --white: #fff;
+  /* Branding */
+  --primary: #F6BE5F;
+  --gradient: linear-gradient(109.8deg, #F6BE5F -6.35%, #FA9875 105.29%);
+  /* Typeface */
+  --font-headline: 'Lato', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  line-height: 22px;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+h1,h2 {
+  font-family: var(--font-headline);
+}

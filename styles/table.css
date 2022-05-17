@@ -1,0 +1,47 @@
+.table{
+  border: 2px solid var(--black);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__header .table__row{
+  background-color: var(--base);
+}
+
+.table__item--header{
+  border-bottom: 2px solid var(--black);
+  border-right: 1px solid var(--black);
+  padding: 1rem 0.5rem;
+  color: var(--white);
+}
+
+.table__item--header:last-of-type{
+  border-right: none;
+}
+
+.table__body .table__row:nth-child(odd){
+  background-color: var(--light-slate);
+}
+
+.table__body .table__row:nth-child(even){
+  background-color: var(--slate);
+}
+
+.table__item{
+  border-bottom: 1px solid var(--black);
+  border-right: 1px solid var(--black);
+}
+
+.table__item:last-of-type{
+  border-right: none;
+}
+
+.table__item--age{
+  text-align: center;
+}
+
+.table__item--email{
+  padding: 1rem 0.5rem;
+  max-width: 20px;
+  overflow-x: scroll;
+}

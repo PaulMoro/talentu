@@ -5,9 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Talentu Prueba Tecnica</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
+<body class="talentu">
+  <header class="talentu__header">
     <span>Prueba Tecnica Talentu</span>
     <nav>
       <ul>
@@ -34,8 +35,8 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
+  <main class="talentu__body">
+    <section class="talentu__form">
       <div>
         <p>Formulario</p>
       </div>
@@ -57,22 +58,53 @@
         </form>
       </div>
     </section>
-    <section>
-      <table>
-        <thead>
-          <th>#</th>
-          <th>Nombre</th>
-          <th>Edad</th>
-          <th>Email</th>
-          <th>Foto</th>
+    <section class="talentu__table">
+      <table class="table">
+        <thead class="table__header">
+          <tr class="table__row">
+            <th class="table__item--header">#</th>
+            <th class="table__item--header">Nombre</th>
+            <th class="table__item--header">Edad</th>
+            <th class="table__item--header">Email</th>
+            <th class="table__item--header">Foto</th>
+          </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Pepe Perez</td>
-            <td>32</td>
-            <td>juanito@gmail.com</td>
-            <td><img src="" alt="imagen de usuario"></td>
+        <tbody class="table__body">
+          <tr class="table__row">
+            <td class="table__item table__item--id">1</td>
+            <td class="table__item table__item--name">Pepe Perez</td>
+            <td class="table__item table__item--age">32</td>
+            <td class="table__item table__item--email">juanito@gmail.com</td>
+            <td class="table__item table__item--photo">
+              <img src="" alt="imagen de usuario">
+            </td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__item table__item--id">1</td>
+            <td class="table__item table__item--name">Pepe Perez</td>
+            <td class="table__item table__item--age">32</td>
+            <td class="table__item table__item--email">juanito@gmail.com</td>
+            <td class="table__item table__item--photo">
+              <img src="" alt="imagen de usuario">
+            </td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__item table__item--id">1</td>
+            <td class="table__item table__item--name">Pepe Perez</td>
+            <td class="table__item table__item--age">32</td>
+            <td class="table__item table__item--email">juanito@gmail.com</td>
+            <td class="table__item table__item--photo">
+              <img src="" alt="imagen de usuario">
+            </td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__item table__item--id">1</td>
+            <td class="table__item table__item--name">Pepe Perez</td>
+            <td class="table__item table__item--age">32</td>
+            <td class="table__item table__item--email">juanito@gmail.com</td>
+            <td class="table__item table__item--photo">
+              <img src="" alt="imagen de usuario">
+            </td>
           </tr>
         </tbody>
       </table>
