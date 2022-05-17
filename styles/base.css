@@ -1,0 +1,26 @@
+.talentu{
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: 124rem;
+}
+
+.talentu__header{
+  
+}
+
+.talentu__body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.talentu__form{
+  padding: 0 0 3rem;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.talentu__table{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}

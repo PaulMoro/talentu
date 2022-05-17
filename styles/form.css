@@ -1,0 +1,21 @@
+.form{
+  border: 2px solid var(--black);
+}
+
+.form__title{
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.form__body{
+  padding: 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__btn{
+  margin: 1rem 0 0;
+  padding: 1rem 2rem;
+  background-color: var(--dark-base);
+  color: var(--white);
+}
