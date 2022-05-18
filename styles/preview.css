@@ -1,0 +1,30 @@
+.preview{
+  padding: 1rem;
+  width: 90%;
+  height: 90vh;
+  display: none;
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  background-color: var(--white);
+  transform: translateX(-50%);
+  overflow-y: scroll;
+}
+
+.preview.active{
+  display: block;
+}
+
+.preview__btn{
+  padding: 2rem 0 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.preview__btn button:first-of-type{
+  background-color: var(--green);
+}
+
+.preview__btn button:last-of-type{
+  background-color: var(--red);
+}

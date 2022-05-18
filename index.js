@@ -35,8 +35,8 @@ const generateElemet = (information) => {
  * get the element,
  * reset data on element
  * Do for each object on parameter for add the information to the node  */
-const updateDataInDOM = (dataStorage) => {
-  let element = document.getElementById('body-table')
+const updateDataInDOM = (dataStorage, idName) => {
+  let element = document.getElementById(idName)
   element.innerHTML = ''
   dataStorage.forEach(e => {
     element.appendChild(generateElemet(e))
@@ -44,7 +44,7 @@ const updateDataInDOM = (dataStorage) => {
 }
 
 /* Generate information since storage our */
-updateDataInDOM(storegeCustom)
+updateDataInDOM(storegeCustom, 'body-table')
 
 /* Call to API */
 const callData = async () => {
@@ -56,5 +56,5 @@ const callData = async () => {
 /* Init all Function */
 callData().then(covidData => {
   storegeCustom = covidData.data
-  updateDataInDOM(covidData.data);
+  updateDataInDOM(covidData.data, 'body-table');
 });
